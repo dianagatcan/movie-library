@@ -1,41 +1,17 @@
 .main {
     padding: 2rem 3rem;
-    &__modal{
+    &__modal {
         pointer-events: none;
         user-select: none;
     }
 }
 
-.disable_scroll{
+.disable_scroll {
     height: 100vh;
     overflow-y: hidden;
 }
 
-.button_section{
-    padding: 0.2rem 0rem;
-    display: flex;
-    column-gap: 1rem;
-    display: flex;
-    justify-content: center;
-    .button{
-        cursor: pointer;
-        text-transform: uppercase;
-        padding: 0.3rem 1rem;
-        background: #FFD369;
-        color: #222839;
-        border: 2px solid transparent;
-        font-family: "Rubik", sans-serif;
-        box-shadow: 0.6rem 0.4rem 0.2rem #222839;
-        &:hover{
-            color: #FFD369;
-            background: #222839;
-            border: 2px solid #FFD369;
-        }
-
-    }
-}
-
-ul{
+ul {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,4 +19,32 @@ ul{
     row-gap: 0.5rem;
 }
 
+.category_section {
+    padding: 0.2rem 0rem;
+    display: flex;
+    column-gap: 1rem;
+    display: flex;
+    justify-content: center;
+    .category {
+        cursor: pointer;
+        text-transform: uppercase;
+        padding: 0.3rem 1rem;
+        background: #ffd369;
+        color: #222839;
+        border: 2px solid transparent;
+        font-family: 'Rubik', sans-serif;
+        box-shadow: 0.6rem 0.4rem 0.2rem #222839;
+        &:hover {
+            color: #ffd369;
+            background: #222839;
+            border: 2px solid #ffd369;
+        }
+    }
+}
 
+.page_section {
+    padding: 0rem 5rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
