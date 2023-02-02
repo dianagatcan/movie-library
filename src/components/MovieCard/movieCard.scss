@@ -1,0 +1,35 @@
+.movie_card{
+    width: 12rem;
+    // height: 22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.movie_card:hover{
+    background-color: #222831;
+}
+
+.movie_poster{
+    width: 12rem;
+    height: 17rem;
+}
+
+.movie_title{
+    color: #EEEEEE;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.movie_info{
+    height: 4rem;
+}
+
+.visible{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+

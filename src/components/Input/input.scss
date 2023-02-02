@@ -1,0 +1,28 @@
+.search {
+    border: 0.1rem solid  #393E46;;
+    background-color:  #393E46;;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    &__img{
+        width: 1rem;
+        height: 1rem;
+    }
+    input{
+        width: 3.1rem;
+        background: transparent;
+        // background-image:url('/assets/search.png');
+        // background-repeat: no-repeat;
+        border: solid 1px transparent;
+        padding: 0.2rem;
+        font-size: 0.9rem;
+        color: hsl(0, 100%, 100%);
+        outline: none;
+        transition: width 0.4s ease-in-out;
+    }
+    input:focus{
+        width: 100%;
+    }
+}
